@@ -1,0 +1,158 @@
+.box,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(235, 227, 227, 0.466);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.boxtop{
+    height: 150px;
+    /* background-color: greenyellow; */
+}
+.boxtop>h1{
+    position: absolute;
+    margin-top:50px ;
+    margin-left: 450px;
+    color: burlywood;
+}
+.navbar{
+    display: flex;
+    border: 1px solid rgba(240, 233, 233, 0.281);
+    border-top: none;
+}
+.navbar>a{
+    padding: 10px;
+    background-color: white;
+}
+.navbar>ul{
+    display: flex;
+    margin-left: 200px;
+}
+.navbar>ul>li{
+    padding: 10px;
+
+}
+.navbar>ul>li>.acolor{
+    padding: 5px;
+    background-color:#008080;
+    border-radius: 20px;
+}
+.active{
+    background-color: white;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+a:hover{
+    color: orange;
+}
+.containerBox{
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    /* background-color: goldenrod; */
+    display: flex;
+    justify-content: space-around;
+}
+.ship{
+    width: 650px;
+    height: 400px;
+    /* background-color: greenyellow; */
+    padding: 10px;
+}
+.ship>video{
+    width: 650px;
+    height: 380px;
+}
+.contexts{
+    width: 650px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contexts>h2{
+    padding: 10px 0;
+}
+.contain{
+    display: flex;
+}
+.contain>img{
+    padding: 4px;
+    width: 200px;
+    height: 200px;
+}
+.containRight{
+    width: 450px;
+    padding: 20px;
+    background-color: white;
+}
+p{
+    text-indent: 2em;
+}
+.textbox{
+    width: 650px;
+}
+.textbox>p{
+    width: 100%;
+}
+.myBox{
+    width: 1300px;
+    height: 250px;
+    margin: 10px auto;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.swiper-container {
+    width: 500px;
+    height: 230px;
+    border: 1px solid white;
+}
+.swiper-container img{
+    width: 500px;
+    height: 250px;
+}
+.swiperRight{
+    width: 700px;
+    height: 250px;
+    padding: 0 10px;
+    background-color: white;
+}
+.swiperRight>p{
+    padding: 10px 0;
+}
+.endbox{
+    width: 1300px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+.foot{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+}
+.foot>img{
+    width: 300px;
+    height: 300px;
+}
+.foot>span{
+    display: flex;
+    padding: 10px;
+    font-size: 14px;
+    text-indent: 2em;
+}
